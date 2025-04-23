@@ -1,0 +1,10 @@
+[workspace]
+authors = ["toohuman <michael.crosscombe@proton.me>"]
+channels = ["conda-forge"]
+name = "litweaver"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
