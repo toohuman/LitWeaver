@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litweaver"
+version = "0.1.0"
+description = "Your AI Research Assistant for Literature Reviews"
+readme = "README.md" # Optional: path to your README file
+authors = ["toohuman <michael.crosscombe@proton.me>"]
+requires-python = ">=3.9"
+
+
+[project.scripts]
+litweaver = "litweaver.cli:app"
+# Syntax: command_name = "path.to.module:object_to_call"
+
+[tool.setuptools.packages.find]
+where = ["src"]

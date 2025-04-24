@@ -2,9 +2,19 @@
 authors = ["toohuman <michael.crosscombe@proton.me>"]
 channels = ["conda-forge"]
 name = "litweaver"
-platforms = ["osx-arm64"]
 version = "0.1.0"
+platforms = ["osx-arm64"]
 
 [tasks]
 
 [dependencies]
+python-dotenv = ">=1.1.0,<2"
+cyclopts = ">=3.13.0,<4"
+langchain = ">=0.3.24,<0.4"
+langchain-community = ">=0.3.22,<0.4"
+langchain-text-splitters = ">=0.3.8,<0.4"
+chromadb = ">=1.0.6,<2"
+sentence-transformers = ">=4.1.0,<5"
+
+[pypi-dependencies]
+pymupdf = ">=1.25.5, <2"
