@@ -1,4 +1,9 @@
+# MacOS
 .DS_Store
+
+# Pixi environment
+.pixi/
+pixi.lock
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
